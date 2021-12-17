@@ -6,6 +6,9 @@ export default function Dictionary() {
   const [keyword, setKeyword] = useState("");
   const [results, setResults] = useState(null);
 
+  function handleResponse(response) {
+    setResults(response.data[0]);
+  }
   function search(event) {
     event.preventDefault();
     alert(`Searching for ${keyword} definition`);
@@ -17,9 +20,6 @@ export default function Dictionary() {
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
-  }
-  function handleResponse(response) {
-    setResults(response.data[0]);
   }
 
   return (
