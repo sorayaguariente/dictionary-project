@@ -1,17 +1,24 @@
-.App-header {
-  margin: 30px;
+.App {
+  margin: 0;
+  padding: 0;
 }
-.App-logo {
+.App-header {
+  margin: 30px 0;
+}
+.App img {
   max-width: 200px;
   display: block;
   margin: 0 auto;
+  text-align: right;
 }
-.App-main {
-  margin: 20px;
-}
-.App-footer {
+.App .App-footer {
   text-align: center;
   margin: 40px 0;
+  padding: 40px 0;
+  color: #f7f7ff;
+  background-color: #fe5448;
+  opacity: 70%;
+  font-weight: bold;
 }
 .App {
   background-color: #fff;
