@@ -10,7 +10,6 @@ export default function Dictionary() {
     // documentation: https://dictionaryapi.dev
 
     event.preventDefault();
-    alert(`Searching for ${keyword} definition`);
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
   }
