@@ -9,7 +9,7 @@ export default function App() {
         <img src={signature} className="img-fluid App-logo" alt="logo" />
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyWord="sunset" />
       </main>
       <footer className="App-footer">Soraya Guariente 2021</footer>
     </div>
