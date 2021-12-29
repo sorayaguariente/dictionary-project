@@ -27,6 +27,12 @@
     url("./fonts/Courier_Prime/CourierPrime-Regular.ttf");
   font-weight: regular;
 }
+@font-face {
+  font-family: "Special Elite", cursive;
+  src: local("Special Elite"),
+    url("./fonts/Special_Elite/SpecialElite-Regular.ttf");
+  font-weight: regular;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

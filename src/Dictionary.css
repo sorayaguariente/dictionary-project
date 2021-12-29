@@ -2,6 +2,7 @@
   font-size: 16px;
   font-style: bold;
   color: #111418;
+  font-family: "Courier Prime";
 }
 .Dictionary section {
   background-color: #f7f7ff;
@@ -15,4 +16,5 @@
   border: 1px solid rgb(90, 89, 89);
   padding: 5px 4px;
   width: 50%;
+  font-family: "Courier Prime";
 }

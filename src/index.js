@@ -8,6 +8,7 @@ import "./fonts/Courier_Prime/CourierPrime-Bold.ttf";
 import "./fonts/Courier_Prime/CourierPrime-BoldItalic.ttf";
 import "./fonts/Courier_Prime/CourierPrime-Italic.ttf";
 import "./fonts/Courier_Prime/CourierPrime-Regular.ttf";
+import "./fonts/Special_Elite/SpecialElite-Regular.ttf";
 ReactDOM.render(
   <React.StrictMode>
     <App />
