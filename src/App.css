@@ -20,6 +20,17 @@
   font-weight: bold;
   font-family: "Courier Prime";
 }
+.App-github {
+  font-family: "Courier Prime";
+  color: #4a6182;
+  font-size: 12px;
+  padding: 4px 25px;
+}
+.App-github a {
+  color: #3b7fba;
+  text-decoration: none;
+  font-weight: bold;
+}
 .App {
   background-color: #fff;
   margin: 0 10px;
