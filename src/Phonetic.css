@@ -1,6 +1,7 @@
 .Phonetic {
   font-size: 16px;
   padding: 10px 0;
-  opacity: 80%;
+  opacity: 70%;
   font-family: "Courier Prime";
+  font-weight: bold;
 }
