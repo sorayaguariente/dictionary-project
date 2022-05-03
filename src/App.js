@@ -31,7 +31,7 @@ export default function App() {
         </div>
       </main>
 
-      <footer className="App-footer">Soraya Guariente 2021</footer>
+      <footer className="App-footer">Soraya Guariente 2022</footer>
     </div>
   );
 }
